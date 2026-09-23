@@ -1,0 +1,13 @@
+import streamlit as st
+
+st.title("FitBuddy - AI Fitness Plan Generator")
+st.write("Welcome to FitBuddy! Get your personalized workout plan.")
+
+age = st.number_input("Enter your Age:", min_value=10, max_value=100, value=20)
+weight = st.number_input("Enter your Weight (kg):", min_value=30, max_value=200, value=65)
+goal = st.selectbox("Select your Goal:", ["Weight Loss", "Muscle Gain", "General Fitness"])
+
+if st.button("Generate Fitness Plan"):
+    st.success(f"Generated Plan for {goal}!")
+    st.write(f"1. Daily Exercise: 30 mins cardio & strength training.")
+    st.write(f"2. Nutrition: Balanced diet with adequate protein.")
