@@ -1,4 +1,4 @@
-# FitBuddy - AI Fitness Plan Generator using Gemini Models
+# MESA FitBuddy - AI Fitness Plan Generator using Gemini Models
 
 ## Project Overview
 FitBuddy is an AI-powered fitness and diet plan generator built using Google Gemini AI models. It takes user details like age, weight, height, fitness goals, and dietary preferences to generate customized workout schedules and diet plans.
